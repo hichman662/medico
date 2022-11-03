@@ -4,7 +4,7 @@
 
         <ion-buttons slot="start">
 
-            <ion-back-button text="Back" defaultHref="/scenarios" icon="chevron-back-outline">Back</ion-back-button>
+            <ion-back-button text="{{ 'SETTINGS.return' | translate }}" defaultHref="/scenarios" icon="chevron-back-outline"></ion-back-button>
         </ion-buttons>
         <ion-buttons slot="end">
 
@@ -34,7 +34,7 @@
         <ion-col size="10" class="ion-align-self-center">
 
             <ion-list-header>
-                <ion-label class="text-top">Settings </ion-label>
+                <ion-label class="text-top">{{ 'SETTINGS.title' | translate }} </ion-label>
 
             </ion-list-header>
 
@@ -45,16 +45,15 @@
 
     </ion-row>
 
-
 </ion-header>
 <ion-content>
 
     <ion-list>
         <ion-item>
-            <ion-label>Select Language</ion-label>
-            <ion-select placeholder="Select One" [(ngModel)]="selectedLanguage" (ionChange)="languageChanged()">
-                <ion-select-option value="en">English</ion-select-option>
-                <ion-select-option value="es">Spanish</ion-select-option>
+            <ion-label>{{ 'SETTINGS.language' | translate }}</ion-label>
+            <ion-select placeholder="{{ 'SETTINGS.selectOne' | translate }} " [(ngModel)]="selectedLanguage" (ionChange)="languageChanged()">
+                <ion-select-option value="en">{{ 'SETTINGS.english' | translate }}</ion-select-option>
+                <ion-select-option value="es">{{ 'SETTINGS.spanish' | translate }}</ion-select-option>
             </ion-select>
         </ion-item>
     </ion-list>

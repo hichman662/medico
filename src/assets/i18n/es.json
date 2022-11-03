@@ -550,6 +550,14 @@
         "typeMessageHere": "Escriba el mensaje aquí",
         "return": "Sección de plan de cuidado"
     },
+    "SETTINGS": {
+        "title": "Ajustes",
+        "english": "Ingles",
+        "spanish": "Español",
+        "language": "Idioma",
+        "selectOne": "Elige uno",
+        "return": "Escenarios"
+    },
     "TOASTALERT": {
         "success": "EXITOSO!",
         "addSuccessfully": "ha sido agregado exitosamente",
