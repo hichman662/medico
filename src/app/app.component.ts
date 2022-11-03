@@ -30,6 +30,11 @@ export class AppComponent {
       icon: 'person-circle'
     },
     {
+      name: `Settings`,
+      link: '/settings',
+      icon: 'settings'
+    },
+    {
       name: 'Logout',
       link: '/login',
       icon: 'exit'

@@ -21,18 +21,14 @@ export class ScenariosPage implements OnInit {
   public listScenario: Scenario[] = [];
   private idScenario: number;
   private token: any;
-  selectedLanguage: string;
   constructor(
     private scenarioService: ScenarioService,
     private userService: UserService,
     public alertController: AlertController,
     public loadingController: LoadingController,
     public router: Router,
-    private storage: Storage,
-    private translateConfigService: TranslateConfigService
-  ) {
-    this.selectedLanguage = this.translateConfigService.getDefaultLanguage() +'';
-  }
+    private storage: Storage
+  ) { }
 
 
   ngOnInit(): void {
@@ -58,9 +54,6 @@ export class ScenariosPage implements OnInit {
 
   }
 
-  languageChanged(){
-    this.translateConfigService.setLanguage(this.selectedLanguage);
-  }
 
   async getEscenario(token: any){
     console.log();

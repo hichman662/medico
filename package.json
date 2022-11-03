@@ -36,6 +36,7 @@
     "angular-material-expansion-panel": "^0.7.2",
     "animate.css": "^4.1.1",
     "animation-player": "^1.0.1",
+    "bootstrap": "^5.2.2",
     "chart.js": "^3.9.1",
     "ionicons": "^6.0.3",
     "material-expansion-panel": "^1.0.0",

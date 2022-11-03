@@ -2,6 +2,7 @@
     "SCENARIO": {
         "title": "Scenario",
         "profile": "Profile",
+        "settings": "Settings",
         "logout": "Logout"
 
     },
